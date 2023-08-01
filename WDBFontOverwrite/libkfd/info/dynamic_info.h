@@ -107,7 +107,7 @@ const struct dynamic_info kern_versions[] = {
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:16:18 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8110",
         .fileglob__fg_ops = 0x28,
-        .fileglob__fg_data = 0x40 - 8,
+        .fileglob__fg_data = 0x10,
         .fileops__fo_kqfilter = 0x30,
         // .fileproc__fp_iocount = 0x0000,
         // .fileproc__fp_vflags = 0x0004,
